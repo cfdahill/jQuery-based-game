@@ -1,49 +1,66 @@
 <!doctype html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Week 4 Game</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="./assets/javascript/game.js" rel="stylesheet/javascript"></script>
-    </head>
-    <body>
-        <header></header>
-        <div class="container">
-            <div  id="player">
-                You
-            </div>
-            <div  id="opponent">
-                The enemy
-            </div>
-            <button id="attack">Attack!</button>
-                <button id="newGame">New game?</button>
-            <div id="summary">
-            </div>
-            <div id="inactive">
-                Waiting
-                <section id="arthur">
-                    <h2>King Arthur</h2>
-                    <img src="" alt="King Arthur">
-                    <h3 id="healthArthur">20</h3>
-                </section>
-                <section id="french">
-                    <h2>The French</h2>
-                    <img src="" alt="Frenchmen">
-                    <h3 id="healthFrench">8</h3>
-                </section>
-                <section id="rabbit">
-                    <h2>The Rabbit</h2>
-                    <img src="" alt="Rabbit">
-                    <h3 id="healthRabbit">20</h3>
-                </section>
-                <section id="keeper">
-                    <h2>The Keeper of the Bridge of Death</h2>
-                    <img src="" alt="The Keeper of the Bridge of Death">
-                    <h3 id="healthKeeper">20</h3>
-                </section>
-            </div>
-            <div id="grave"></div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Week 4 Game</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js" rel="stylesheet/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Monty Python and the Holy Grail</h1>
+        <h2>the RPG game</h2>
+    </header>
+    <div id="left">
+        <div id="player">
+            <h3>You</h3>
         </div>
-    </body>
+        <div id="opponent">
+            <h3>The enemy</h3>
+        </div>
+    </div>
+    <div id="right">
+        <div id="inactive">
+            <h3>Waiting</h3>
+            <section id="arthur">
+                <h4>King Arthur</h4>
+                <img src="./assets/images/kingArthur.jpg" alt="King Arthur">
+                <p id="arthurHealth">150</p>
+            </section>
+            <section id="french">
+                <h4>The French</h4>
+                <img src="./assets/images/french.jpg" alt="Frenchmen">
+                <p id="frenchHealth">125</p>
+            </section>
+            <section id="rabbit">
+                <h4>The Rabbit</h4>
+                <img src="./assets/images/rabbit.jpg" alt="Rabbit">
+                <p id="rabbitHealth">80</p>
+            </section>
+            <section id="keeper">
+                <h4>Keeper of the Bridge of Death</h4>
+                <img src="./assets/images/keeper.jpg" alt="The Keeper of the Bridge of Death">
+                <p id="keeperHealth">110</p>
+            </section>
+        </div>
+        <div id="grave"></div>
+    </div>
+    <div id="bottom">
+        <button id="attack">Attack!</button>
+        <button id="newGame">New game?</button>
+        <div id="summary">
+        </div>
+    </div>
+    <footer>
+        <p>This game created by 40 Specially Trained Ecuadorian Mountain Llamas</p>
+    </footer>
+</body>
+
 </html>

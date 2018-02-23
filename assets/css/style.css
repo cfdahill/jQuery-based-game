@@ -1,0 +1,97 @@
+body{
+    background-image: url(../images/backdrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Berkshire Swash', cursive;
+    color: ivory;
+}
+
+section{
+    background: #b9b9b1;
+    border: solid;
+    width: 200px;
+    height: 200px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: black;
+    text-align: center;
+}
+
+h1{
+    font-size:60px;
+    margin-left:15px;
+}
+
+h2{
+    font-family: 'Creepster', cursive;
+    color:red;
+    font-size: 50px;
+    margin-left: 775px;    
+}
+h3{
+    font-size:30px;
+    display: block;
+}
+
+header{
+    margin-top: 10px;
+}
+
+#opponent {
+    height: 250px;
+}
+#player {
+    height: 250px;
+}
+
+#inactive {
+    height: 250px;
+}
+
+img{
+    width:150px;
+    height:150px;
+    margin-top:5px;
+}
+#summary{
+    height: 30px;
+    overflow-wrap: break-word; 
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#left{
+    display: block;
+    float: left;
+    min-width: 40vw;
+    margin-left:20px;
+}
+
+#right{
+    display: block;
+    float: left;
+    margin-top:100px;
+}
+
+#bottom{
+    display:block;
+    width:90vw;
+    clear:both;
+    margin-left:20px;
+    line-height: 150%;
+}
+
+button{
+    margin:10px;
+}
+#keeper{
+    font-size:15px;
+}
+
+footer{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
