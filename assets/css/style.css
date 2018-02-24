@@ -65,7 +65,8 @@ img{
 #left{
     display: block;
     float: left;
-    min-width: 40vw;
+    min-width:30vw;
+    max-width: 40vw;
     margin-left:20px;
 }
 
@@ -73,6 +74,7 @@ img{
     display: block;
     float: left;
     margin-top:100px;
+    width:60vw;
 }
 
 #bottom{
@@ -80,7 +82,9 @@ img{
     width:90vw;
     clear:both;
     margin-left:20px;
+    margin-bottom: 20px;
     line-height: 150%;
+    min-height:5vh;
 }
 
 button{
@@ -91,7 +95,6 @@ button{
 }
 
 footer{
-    position:fixed;
-    bottom:10px;
-    right:10px;
+text-align:right;
+margin-right: 10px;
 }
