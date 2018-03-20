@@ -1,29 +1,12 @@
 # week-4-game
-attempting the Star Wars game first.
+Description:
+The week-4-game is a click-to-play game.  Start by choosing one of the 4 characters to be.  Then choose your first opponent.  After that you will click the attack button until either you or your opponent has been defeated.  Once your opponent is defeated, choose a new opponent and continue until you beat all three opponents.  This game can be won by all characters.  Hopefully, you enjoy the descriptions of the attacks and comments when clicking on characters when you shouldn't.
 
-Psuedocode:
-1. create four charactor objects
-2.  assign each charactor 3 variables: name, innitial  health & attack
-3.  onclick choose a character to be yours, append to player
-a) all other characters move to a different section, append to other section
-4.  on click choose an opponent
-a) this opponent moves to a "challenger" section
--set your initial health and attack to new variables so they can easily change
--set opponent's health to new variable as well
-5. click attack button to attack and remove health from opponent
-6.  opponent autoattacks and removes health from you
-7.  your next attack will add the initial attack value so it is doubled
-    each subsequent attack will add initial attack value
-8. once opponents health is <1 they die and disappear from the screen
-9. Choose new oponnent and continue (your health or attack do not reset)
-10.  Repeat process until either all opponents are dead and you win
-    or you lose all health and lose
-11. restart game shows after game ends
+Deployment:
+This is a web-based program so no additional programs are needed to run it.  Designed to be used on Google Chrome.
 
-Include text telling the player what is happening
-    "You attack ... for ## damage.
-    ... attacks you for ## damage."
-    "You have defeated ... .  Chose a new opponent."
-    so on so forth
+Purpose:
+This assignment required that many elements be clickable and to change positions on the screen when clicked.  It also required the player's attack to increase every turn.
 
-Make for only 2 characters, once that is working add the other two
+Author: Chay Dahill
+Last Updated: 3/20/2018
